@@ -1,0 +1,47 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    overflow:hidden;
+}
+table {
+    border: 0px solid black;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+}
+tr, td {
+    margin: 0px;
+    padding: 0px;
+}
+span {
+    margin: 0px;
+    padding: 0px;
+    display: block; /* important! */
+}
+img { 
+    vertical-align: top; /* or bottom (remove white space) */
+    display: block; /* important! */
+}
+#updateNowplaying { /* (div) */
+    border: 0px solid black;
+    margin: 0px;
+    padding: 0px;
+    width: 468px;
+    height: 60px;
+}
+#updateHistory { /* (div) */
+    border: 0px solid black;
+    margin: 0px;
+    padding: 0px;
+    width: 468px;
+}
+.overlay { /* (div) */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 2;
+}
